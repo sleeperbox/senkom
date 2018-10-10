@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('home_component.homepage');
+    return view('home_component.index');
 });
 
-Route::get('/user/login', function () {
-    return view('user_component/login');
-});
+Route::get('/user/dashboard', 'UserController@dashboard');
+Route::get('/user/logout', 'UserController@destroy');
+Route::get('/user/login', 'UserController@index')->name('home');
+Route::post('/user/login', 'UserController@dologin');
+
+Route::get('/berita', 'BeritaController@index');
+Route::post('/berita/kirim', 'BeritaController@kirim');

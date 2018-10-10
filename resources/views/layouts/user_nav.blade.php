@@ -26,8 +26,13 @@
           <a class="nav-link js-scroll-trigger" href="http://localhost/senkom/public/pemantauan">Pemantauan</a>
         </li>
         <li class="nav-item">
+          @if(!Auth::check())
           <a class="nav-link js-scroll-trigger" href="http://localhost/senkom/public/user/login">Login</a>
+          @else
+          <a class="nav-link js-scroll-trigger" href="http://localhost/senkom/public/user/logout">logout</a>
+          @endif
         </li>
+
       </ul>
     </div>
   </div>
