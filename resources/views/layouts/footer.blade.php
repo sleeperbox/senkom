@@ -4,13 +4,13 @@
         <small>Sekretariat Jl. Kerajinan No. 2 Lt. 3, Gajahmada, Telp(021) 70911355, Jakarta Barat 11130 - ppsmp@senkom.or.id</small>
         <ul class="list-inline">
           <li class="list-inline-item">
-            <a href="#">Privacy</a>
+            <a href="http://localhost/senkom/public/privasi">Privacy</a>
           </li>
           <li class="list-inline-item">
-            <a href="#">Terms</a>
+            <a href="http://localhost/senkom/public/terms">Terms</a>
           </li>
           <li class="list-inline-item">
-            <a href="#">FAQ</a>
+            <a href="http://localhost/senkom/public/faq">FAQ</a>
           </li>
         </ul>
       </div>

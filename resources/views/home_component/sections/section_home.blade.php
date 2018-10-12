@@ -1,6 +1,6 @@
 
 
-<section class="features" id="features">
+<section class="features" id="features" style="background: #fff">
   <div class="container">
     <div class="section-heading text-center">
       <h2>Kirim Berita Via Website Atau Aplikasi Android</h2>
@@ -91,7 +91,7 @@
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-        <center><a href="/galeri" style="text-decoration:underline;font-size:20px">Lihat Semua Foto</a></center>
+        <center><a href="http://localhost/senkom/public/galeri" style="text-decoration:underline;font-size:20px">Lihat Semua Foto</a></center>
       </section>
 
       <style>

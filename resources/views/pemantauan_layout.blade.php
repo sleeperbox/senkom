@@ -28,8 +28,8 @@
     <link href="css/new-age.min.css" rel="stylesheet">
   </head>
 
-  <body id="page-top" style="background: #f7f7f7">	
-	@include ('layouts.nav') 
+  <body id="page-top">	
+	@include ('layouts.pemantauan_nav') 
 
     <div class="container">
     	@yield ('content')
